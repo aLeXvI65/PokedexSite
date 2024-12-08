@@ -1,0 +1,195 @@
+
+.pokemonInfoHeader {
+    display: flex;       
+    flex-direction: column; 
+    align-items: center;
+    flex-flow: wrap;
+    gap: 0.4%;
+    font-size: 18px;
+}
+
+.infoColumn {
+    display: flex;
+    align-items: center;
+    height: 4.5em;
+    background: #A4A4A4;
+    width: 49.8%;
+}
+
+.infoHeaderDataContainer {
+    color: white;
+    width: 10em;
+    margin-bottom: 20px;
+}
+
+.infoColumnLeft {
+    justify-content: flex-start;
+}
+
+.infoColumnRight {
+    justify-content: flex-end;
+}
+
+.infoDataLeft {
+    margin-left: 20px;
+}
+
+.infoDataRight {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.selectPokemonButton {
+    appearance: none;
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.pokemonHeaderName {
+    color: #616161;
+    font-weight: 700;
+}
+
+.pokemonInfoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Main content */
+.pokemonInfoTitle {
+    width: 85%;
+    text-align: center;
+    height: 4em;
+    background: white;
+    position: relative;
+    top: -26px;
+    border-radius: 30px;
+    font-size: 24px;
+    padding: 15px;
+}
+
+.pokemonInfoName {
+    color: black;
+}
+
+.pokemonInfoId {
+    color: #616161;
+}
+
+.pokemonContent {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    flex-flow: wrap;
+    gap: 0.4%;
+    font-size: 18px;
+}
+
+.pokemonContentColumn {
+    display: block;
+    justify-content: center;
+    /* align-items: center; */
+    width: 48%;
+}
+
+.pokemonInfoImage {
+    background: #F2F2F2;
+    border-radius: 5px;
+}
+
+.pokemonColumnRight {
+    display: block;
+}
+
+.versionsContainer {
+    margin-top: 25px;
+}
+
+.pokeballButton {
+    appearance: none;
+    border: none;
+    background: url(../assets/images/icons/pokeball-icon.png) no-repeat 0px center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.pokeballBlue {
+    filter: invert(48%) sepia(94%) saturate(1800%) hue-rotate(180deg) brightness(100%) contrast(90%);
+}
+
+.pokeballPink {
+    filter: invert(48%) sepia(94%) saturate(1800%) hue-rotate(290deg) brightness(100%) contrast(90%);
+}
+
+.pokemonAttributesContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 90%;
+    padding: 1em;
+    margin-top: 20px;
+    background: #159ece;
+    border-radius: 5px;
+}
+
+.pokemonAttrElement {
+    width: 40%;
+    color: white;
+    margin: 10px;
+}
+
+.pokemonAttrData {
+    color: #313131;
+}
+
+.statsContainer {
+    background: #9a9a9a;
+    width: 90%;
+    height: 14em;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 15px;
+    color: #313131;
+}
+
+/* .statsTable tbody {
+    display: flex;
+    flex-direction: column-reverse;
+} */
+
+.statsTable table{
+    width: 90%;
+    font-size: 14px;
+    margin: 15px;
+}
+/* 
+.statsTable table th, .statsTable table th{
+    width: 90%;
+} */
+
+.statsTable td {
+    height: 0.3em;
+    width: 10em;
+    background: white;
+}
+
+.blueCell {
+    background: #159ece !important;
+}
+
+.pokemonTypeSpan {
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin: 2px;
+    padding: 8px 35px;
+    cursor: pointer;
+    display: inline-block;
+}
