@@ -89,6 +89,13 @@
     font-size: 18px;
 }
 
+
+@media (max-width: 768px) {
+    .pokemonContentColumn {
+        width: 100% !important;
+    }
+}
+
 .pokemonContentColumn {
     display: block;
     justify-content: center;
