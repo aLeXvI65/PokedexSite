@@ -1,5 +1,5 @@
-📝 Custom WordPress Project
-📖 Project Description
+# 📝 Custom WordPress Project
+## 📖 Project Description
 This project is a custom WordPress website built entirely from scratch using:
 
 Vanilla JavaScript
