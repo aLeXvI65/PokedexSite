@@ -4,6 +4,7 @@ This project is a custom Pokedex WordPress website built entirely from scratch u
 
 Vanilla JavaScript
 Custom CSS
+API RESTFul consumption using https://pokeapi.co/
 A custom WordPress theme developed without relying on pre-existing templates or frameworks.
 The goal of this project was to create a fully customized, responsive, and lightweight website, tailored specifically to the project's requirements.
 
@@ -31,4 +32,6 @@ Run the site locally:
 Open http://localhost/pokedexChallenge to view the project.
 
 ## 🌐 Live Demo
-You can see a live version of the project in the following link:
+You can see a live version of the project in the following link: http://mypokedex.kesug.com/
+
+## Site developed by Oscar Alejandro Vitela Ramirez
